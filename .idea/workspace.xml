@@ -53,11 +53,22 @@
       <updated>1655581103781</updated>
       <workItem from="1655581106936" duration="2000" />
       <workItem from="1655581584806" duration="2101000" />
-      <workItem from="1655741541153" duration="3485000" />
+      <workItem from="1655741541153" duration="5060000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L002/POJO.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
