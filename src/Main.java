@@ -11,8 +11,8 @@ public class Main {
         Cat catVar = new Cat();
         catVar.voice();
 
-
-
+        L004.Cat catL004 = new L004.Cat();
+        catL004.voice();
 
 
 
