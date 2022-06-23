@@ -1,3 +1,4 @@
+import L013.SwitchExample;
 import animals.Cat;
 import animals.Dog;
 import animals.Duck;
@@ -77,6 +78,22 @@ public class Main {
         System.out.println(dogsLinkedList.get(indexLinkedList));
         indexLinkedList++;
     }
+
+    for (int i = 0; i < 100; i++){
+        SwitchExample.run();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
