@@ -2,6 +2,7 @@ import tasks.task001.task001;
 import tasks.task002.task002;
 import tasks.task003.task003;
 import tasks.task004.task004;
+import tasks.task005.tasks005;
 
 import java.io.IOException;
 
@@ -123,27 +124,28 @@ public class Main {
 
         /*Самостоятельные Задания*/
 
-        task001.run();
-        task002.run();
+//        task001.run();
+//        task002.run();
+//
+//        /*задание 3 - передаем массив с данными в таблицу и после выводим в консоль содержимое массива*/
+//        String[] multiplicationTable = {
+//                "3*1=3"
+//                , "3*2=6"
+//                , "3*3=9"
+//                , "3*4=12"
+//                , "3*5=15"
+//                , "3*6=18"
+//                , "3*7=21"
+//                ,"3*8=24"
+//                , "3*9=27"
+//                , "3*10=30"
+//        };
+//        task003.run(multiplicationTable);
+//        /*задание 3 - конец */
+//
+//        task004.run(args);
 
-        /*задание 3 - передаем массив с данными в таблицу и после выводим в консоль содержимое массива*/
-        String[] multiplicationTable = {
-                "3*1=3"
-                , "3*2=6"
-                , "3*3=9"
-                , "3*4=12"
-                , "3*5=15"
-                , "3*6=18"
-                , "3*7=21"
-                ,"3*8=24"
-                , "3*9=27"
-                , "3*10=30"
-        };
-        task003.run(multiplicationTable);
-        /*задание 3 - конец */
-
-        task004.run(args);
-
+        tasks005.run();
 
 
     }
