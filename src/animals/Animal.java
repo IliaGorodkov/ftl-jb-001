@@ -1,6 +1,6 @@
 package animals;
 
-class Animal {
+abstract class Animal {
     protected String name;
     protected Integer weight;
     protected Integer currentPosition = 0;
@@ -18,9 +18,8 @@ class Animal {
         this.moveType = moveType;
     }
 
-    public void voice(){
-        System.out.println("Voice");
-    }
+    public abstract void voice();
+
 
     public void runForward(Integer lenght){
         this.currentPosition += lenght;
