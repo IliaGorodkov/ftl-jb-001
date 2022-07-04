@@ -1,4 +1,4 @@
-package tasks.tasks002;
+package tasks.task002;
 
 public class task002 {
     public static void run(){
