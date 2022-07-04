@@ -1,6 +1,7 @@
 import tasks.task001.task001;
 import tasks.task002.task002;
 import tasks.task003.task003;
+import tasks.task004.task004;
 
 import java.io.IOException;
 
@@ -139,9 +140,9 @@ public class Main {
                 , "3*10=30"
         };
         task003.run(multiplicationTable);
+        /*задание 3 - конец */
 
-
-
+        task004.run(args);
 
 
 
