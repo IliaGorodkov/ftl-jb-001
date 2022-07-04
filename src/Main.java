@@ -4,6 +4,7 @@ import tasks.task003.task003;
 import tasks.task004.task004;
 import tasks.task005.tasks005;
 import tasks.task006.tasks006;
+import tasks.task007.tasks007;
 
 import java.io.IOException;
 
@@ -147,8 +148,8 @@ public class Main {
 //        task004.run(args);
 
 //        tasks005.run();
-        tasks006.run();
-
+//        tasks006.run();
+        tasks007.run();
     }
 
 
