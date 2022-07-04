@@ -1,18 +1,8 @@
-import L013.SwitchExample;
-import L019.StringExample;
-import L020.TypeConversion;
-import L026.FileExample;
-import L027.ThreadExample;
-import L028.House;
-import animals.*;
 import tasks.task001.task001;
-import tasks.tasks002.task002;
+import tasks.task002.task002;
+import tasks.task003.task003;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -134,6 +124,27 @@ public class Main {
 
         task001.run();
         task002.run();
+
+        /*задание 3 - передаем массив с данными в таблицу и после выводим в консоль содержимое массива*/
+        String[] multiplicationTable = {
+                "3*1=3"
+                , "3*2=6"
+                , "3*3=9"
+                , "3*4=12"
+                , "3*5=15"
+                , "3*6=18"
+                , "3*7=21"
+                ,"3*8=24"
+                , "3*9=27"
+                , "3*10=30"
+        };
+        task003.run(multiplicationTable);
+
+
+
+
+
+
     }
 
 
