@@ -7,4 +7,7 @@ public class task001 {
             System.out.println(i);
         }
     }
+
+
+
 }

@@ -6,6 +6,7 @@ import L027.ThreadExample;
 import L028.House;
 import animals.*;
 import tasks.task001.task001;
+import tasks.tasks002.task002;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -132,7 +133,7 @@ public class Main {
         /*Самостоятельные Задания*/
 
         task001.run();
-
+        task002.run();
     }
 
 
