@@ -12,8 +12,11 @@ import tasks.task011.tasks011;
 import tasks.task012.tasks012;
 import tasks.task013.tasks013;
 import tasks.task014.Vector;
+import tasks.task015.RandomFromArray;
+
 
 import java.io.IOException;
+import java.io.RandomAccessFile;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -162,8 +165,8 @@ public class Main {
 //        tasks010.run(args);
 //        tasks012.run(args);
 //        tasks013.run();
-        Vector.run(args);
-
+//        Vector.run(args);
+        RandomFromArray.getRandom();
 
 
 
