@@ -11,6 +11,7 @@ import tasks.task010.tasks010;
 import tasks.task011.tasks011;
 import tasks.task012.tasks012;
 import tasks.task013.tasks013;
+import tasks.task014.Vector;
 
 import java.io.IOException;
 
@@ -160,7 +161,8 @@ public class Main {
 //        tasks009.run(args);
 //        tasks010.run(args);
 //        tasks012.run(args);
-        tasks013.run();
+//        tasks013.run();
+        Vector.run(args);
 
 
 
