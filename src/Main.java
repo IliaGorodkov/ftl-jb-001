@@ -13,6 +13,7 @@ import tasks.task012.tasks012;
 import tasks.task013.tasks013;
 import tasks.task014.Vector;
 import tasks.task015.RandomFromArray;
+import tasks.task016.tasks016;
 
 
 import java.io.IOException;
@@ -166,8 +167,8 @@ public class Main {
 //        tasks012.run(args);
 //        tasks013.run();
 //        Vector.run(args);
-        RandomFromArray.getRandom();
-
+//        RandomFromArray.main(args);
+        tasks016.run(args);
 
 
 
