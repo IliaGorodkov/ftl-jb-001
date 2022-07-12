@@ -124,9 +124,7 @@ public class Main {
 
         /*Самостоятельные Задания*/
 
-        tasks021.run("dgfaqwezxc");
-
-
+        tasks.task022.Main.run(args);
 
         
 
