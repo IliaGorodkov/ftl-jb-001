@@ -1,24 +1,7 @@
-import tasks.task001.task001;
-import tasks.task002.task002;
-import tasks.task003.task003;
-import tasks.task004.task004;
-import tasks.task005.tasks005;
-import tasks.task006.tasks006;
-import tasks.task007.tasks007;
-import tasks.task008.tasks008;
-import tasks.task009.tasks009;
-import tasks.task010.tasks010;
-import tasks.task011.tasks011;
-import tasks.task012.tasks012;
-import tasks.task013.tasks013;
-import tasks.task014.Vector;
-import tasks.task015.RandomFromArray;
-import tasks.task016.tasks016;
-import tasks.task017.tasks017;
 
-
+import java.awt.*;
 import java.io.IOException;
-import java.io.RandomAccessFile;
+
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -170,11 +153,12 @@ public class Main {
 //        Vector.run(args);
 //        RandomFromArray.main(args);
 //        tasks016.run(args);
-        tasks017.run(args);
+//        tasks017.run(args);
+        tasks.task018.Main.run(args);
 
 
 
-
+        
 
     }
 
