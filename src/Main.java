@@ -1,6 +1,7 @@
 
 import tasks.task005.tasks005;
 import tasks.task021.tasks021;
+import tasks.task023.tasks023;
 
 import java.awt.*;
 import java.io.IOException;
@@ -124,8 +125,8 @@ public class Main {
 
         /*Самостоятельные Задания*/
 
-        tasks.task022.Main.run(args);
 
+        /** Смотрите файл task023.tasks023; */
         
 
     }
