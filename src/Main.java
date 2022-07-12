@@ -154,7 +154,8 @@ public class Main {
 //        RandomFromArray.main(args);
 //        tasks016.run(args);
 //        tasks017.run(args);
-        tasks.task018.Main.run(args);
+//        tasks.task018.Main.run(args);
+        tasks.task019.Main.run(args);
 
 
 
